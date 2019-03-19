@@ -3,8 +3,9 @@
 Are you being put on twitter lists you don't want to be? Make yourself de-list by blocking the creator of every list you're on, removing yourself from them all.
 
 ## Run
-1. Copy `dotenv_sample` to `.env`, fill in the values from https://developer.twitter.com OR set vars manually with `export`.
-2. Currently just `env $(cat .env | xargs) cargo run`
+1. Install Rust via rustup.rs
+2. Copy `dotenv_sample` to `.env`, fill in the values from https://developer.twitter.com OR set vars manually with `export`.
+3. Currently just `env $(cat .env | xargs) cargo run` from bash
 
 ## TODO:
 1. Actually implement
@@ -13,4 +14,6 @@ Are you being put on twitter lists you don't want to be? Make yourself de-list b
 3. Sort out deployment
     - Binary?
     - Browser plugin?
-    - SAAS?
+    - Website?
+
+Note can only do 300 blocks/hr. Maybe bypass this by asking for another user auth token?

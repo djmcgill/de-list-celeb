@@ -7,3 +7,9 @@ licence = "MIT"
 
 [dependencies]
 egg-mode = "0.12.0"
+# hyper = "0.12.13"
+# hyper-tls = "0.3.1"
+# native-tls = "0.2.2"
+futures = "0.1.*"
+tokio-core = "0.1.*"
+chrono = "0.4.6"
