@@ -8,10 +8,9 @@ Are you being put on twitter lists you don't want to be? Make yourself de-list b
 3. Currently just `env $(cat .env | xargs) cargo run` from bash
 
 ## TODO:
-1. Actually implement
-2. Sort out permissions
+1. Sort out permissions
     - Better explanation, link to twitter docs
-3. Sort out deployment
+2. Sort out deployment
     - Binary?
     - Browser plugin?
     - Website?
